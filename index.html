@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Dhanawade- Virtual Business Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="themeToggle" class="theme-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="card">
+        <div class="header">
+            <img src="images/mypic.jpeg" alt="Profile" class="profile-img">
+            <div class="info">
+                <h1>Ayush Dhanawade</h1>
+                <h2>Full Stack Developer</h2>
+                <p>Computer Engineering student with strong fundamentals in programming and web development. Seeking a Software / Web Development Internship to apply skills in HTML, CSS, JavaScript, MySQL, and problem-solving.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="main-content">
+                <section>
+                    <h3>About Me</h3>
+                    <p class="bio">A passionate Computer Engineering student focused on web development and problem-solving. I enjoy turning ideas into clean, responsive, and functional web applications.</p>
+                </section>
+
+                <section>
+                    <h3>Contact</h3>
+                    <a href="tel:+91 9322022740" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9322022740</span>
+                    </a>
+                    <a href="mailto:717ayush@email.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>717ayush@gmail.com</span>
+                    </a>
+                </section>
+
+                <section>
+                    <h3>Social Media</h3>
+                    <div class="social">
+                        <a href="linkedin.com/in/ayush-dhanawade717" target="_blank" class="social-btn linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ayshu717" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/4y5hu?igsh=YjJnemdxbzdhZmY2" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </section>
+
+                <button id="downloadBtn" class="download-btn">
+                    <i class="fas fa-download"></i> Download Contact
+                </button>
+            </div>
+
+            <div class="qr-section">
+                <h3>Scan to Share</h3>
+                <div class="qr-box">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://alexthompson-card.netlify.app" alt="QR Code">
+                </div>
+                <p>Share this card</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Ayush Dhanawade</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
