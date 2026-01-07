@@ -27,7 +27,7 @@ FN:Ayush Dhanawade
 TITLE:Full Stack Developer
 TEL:+91 9322022740
 EMAIL:717ayush@gmail.com
-URL:https://alexthompson-card.netlify.app
+URL:https://ayshu717.github.io/p1-virtual-business-card/
 NOTE:Passionate software engineer with expertise in web technologies
 END:VCARD`;
 
@@ -58,4 +58,5 @@ links.forEach(link => {
     link.addEventListener('mouseleave', function() {
         this.style.transform = 'translateX(0) scale(1)';
     });
+
 });
